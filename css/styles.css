@@ -1,0 +1,76 @@
+body{
+    padding: 10% 15%;
+    font-family: "Spartan", sans-serif;
+    overflow: hidden;
+}
+
+h1{
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    line-height: 3.5rem;
+}
+
+h6{
+    font-weight: 400;
+    color: hsl(303, 10%, 53%);
+    line-height: 2em;
+    padding-right: 100px;
+}
+
+p{
+    line-height: 0.1rem;
+}
+
+.attribution {
+    margin-top: 10%;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.info-column{
+    padding-right: 150px;
+}
+
+.ratings-column{
+    padding: 0% 0;
+    margin: 0;
+}
+.rating-container{
+    display:inline-block;
+    padding: 3% 5% 3% 5%;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    width: 65%;
+    margin-top: 20px;
+    color:  hsl(300, 43%, 22%);
+}
+
+.reviews{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.reviewer-icon{
+    border-radius: 100%; width: 4vh; float: left;margin-right: 8%;
+}
+
+.user-reviews{
+    background-color: hsl(300, 43%, 22%);
+    color: white;
+    display: inline-block;
+    padding: 3% 3%;
+    border-radius: 10px;
+    font-size: 15px;
+    width: 32%;
+    height: 90%;
+
+}
